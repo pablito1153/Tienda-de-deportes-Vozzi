@@ -61,6 +61,7 @@ html {
     border-style:double;
     border-color: #000000;
     border-width: 2px;
+    transition: all 120ms;
  }
 
  .socialMedia {
@@ -78,43 +79,103 @@ html {
  
   .pieDeFoto {
     text-align: center;
+    transition: 120ms;
   }
 
   .tituloFoto{
     text-align: center;
+    transition: 120ms;
   }
 
- #article1 {
+ .art1 {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    margin-left: 200px;
    margin-right: 200px;
    font-size: 23px;
+   transition: all 120ms;
  }
  
- #article2 {
+ .art2 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   margin-left: 200px;
   margin-right: 200px;
   font-size: 23px;
+  transition: all 120ms;
  }
 
- #article3{
+ .art3{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-left: 200px;
   margin-right: 200px;
   font-size: 23px;
+  transition: all 120ms;
  }
 
- #promo {
+ .promo {
    color: #ff1500;
+   transition: all 120ms;
+ }
+ 
+ .promo:hover {
+ border: #000000;
+ border-radius: 5px;
+ border-width: 3px;
+ border-style: solid;
  }
 
- #precio {
+ .precio {
   text-decoration: line-through;
+  transition: all 120ms;
+ }
+
+ .art1:hover {
+  border: #000000;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+ }
+
+ .precio:hover {
+  border: #000000;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+ }
+
+ .pieDeFoto:hover {
+  border: #000000;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+ }
+
+ .tituloFoto:hover {
+  border: #000000;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+ }
+
+ .imagen:hover{
+  transform: scale(1.6);
+ }
+
+ .art2:hover {
+  border: #000000;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+ }
+
+ .art3:hover {
+  border: #000000;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
  }
